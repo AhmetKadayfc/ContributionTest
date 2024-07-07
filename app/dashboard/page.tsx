@@ -7,10 +7,10 @@ export const metadata: Metadata = {
 
 export default function Page() {
     return (
-        <div>
+        <div className="flex min-h-screen flex-col items-center justify-between p-24">
             <h1>Dashboard Index</h1>
-            <Link href="/">Go to Home</Link><br/>
             <Link href="/website">Go to Website</Link>
+            <Link href="/">Go to Home</Link><br/>
         </div>
     )
 }
